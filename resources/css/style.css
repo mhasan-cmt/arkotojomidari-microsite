@@ -1,0 +1,52 @@
+.col {
+    padding: 0;
+    margin: 0;
+}
+
+#form-area .col {
+    padding-left: 20px;
+}
+
+.hide label {
+    visibility: hidden;
+}
+
+#form-area h5 {
+    margin-bottom: 25px;
+    color: #1E4399;
+    font-weight: bolder;
+}
+
+.hero {
+    width: 100%;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+input[type] {
+    padding-left: 7px;
+    border-color: rgba(0, 0, 255, 0.418);
+}
+
+
+
+
+
+@media (max-width: 481px) {
+    .mobile-screen {
+        display: block;
+    }
+    .desktop-screen {
+        display: none;
+    }
+}
+@media (min-width: 482px) {
+    .mobile-screen {
+        display: none;
+    }
+    .desktop-screen {
+        display: block;
+    }
+}
